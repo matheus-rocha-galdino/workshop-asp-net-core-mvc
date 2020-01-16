@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SalerWebMvc.Models;
+using SalerWebMvc.Models.ViewModels;
 
 namespace SalerWebMvc.Controllers
 {
@@ -21,6 +22,7 @@ namespace SalerWebMvc.Controllers
             ViewData ["Professor"] = "Matheus Rocha";
 
             return View();
+            
         }
 
         public IActionResult Contact()
